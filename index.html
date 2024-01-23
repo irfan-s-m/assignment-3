@@ -27,6 +27,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'section': "url('../images/2.png')",
                     }
                 }
             }
@@ -105,25 +106,25 @@
             <!-- Circular Progress -->
             <div class="grid gap-10 grid-cols-1 lg:grid-cols-4 justify-between items-center p-12">
                 <div class="flex flex-col gap-2 justify-center items-center">
-                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
-                    <h1 class="text-xl font-semibold text-[#131318] text-center">Prayer Facility</h1>
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-[#131318] font-extrabold text-2xl">87%</span></div>
+                    <h1 class="text-2xl font-semibold text-[#131318] text-center">Prayer Facility</h1>
                     <p class="font-normal text-base text-[#13131899] text-center">We have dedicated room for prayer.</p>
                 </div>
                 <div class="flex flex-col gap-2 justify-center items-center">
-                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
-                    <h1 class="text-xl font-semibold text-[#131318] text-center">Experienced Coach</h1>
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-[#131318] font-extrabold text-2xl">95%</span></div>
+                    <h1 class="text-2xl font-semibold text-[#131318] text-center">Experienced Coach</h1>
                     <p class="font-normal text-base text-[#13131899] text-center">Experienced coach possesses skills to
                         provide guidance.</p>
                 </div>
                 <div class="flex flex-col gap-2 justify-center items-center">
-                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
-                    <h1 class="text-xl font-semibold text-[#131318] text-center">Senior Player</h1>
+                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-[#131318] font-extrabold text-2xl">90%</span></div>
+                    <h1 class="text-2xl font-semibold text-[#131318] text-center">Senior Player</h1>
                     <p class="font-normal text-base text-[#13131899] text-center">Senior players bring skill and
                         experience to the team.</p>
                 </div>
                 <div class="flex flex-col gap-2 justify-center items-center">
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
-                    <h1 class="text-xl font-semibold text-[#131318] text-center">Training Ground</h1>
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-[#131318] font-extrabold text-2xl">80%</span></div>
+                    <h1 class="text-2xl font-semibold text-[#131318] text-center">Training Ground</h1>
                     <p class="font-normal text-base text-[#13131899] text-center">Our training ground is a dedicated
                         facility for practice.</p>
                 </div>
@@ -139,24 +140,35 @@
                     sports team, emphasizing various aspects of training, performance.</p>
             </div>
             <hr class="my-8 border-2 border-dashed border-[#13131833]">
-            <div>
-                <div>
-                    <h3 class="text-2xl font-extrabold text-white">Junior Program</h3>
-                    <p class="text-base font-medium text-white">Specialized initiative focused on the development of
-                        young athletes.</p>
-                    <button class="btn bg-[#FF4240] text-white">Register Now!</button>
+            <div class="grid lg:grid-cols-2 gap-6">
+                <div
+                    class="bg-[linear-gradient(to_right_bottom,rgba(9,7,12,0.45),rgba(7,4,10,0.5)),url('../images/2.png')] bg-no-repeat bg-cover object-cover rounded-2xl p-10 flex flex-col gap-5">
+                    <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+                    <p class="text-sm font-medium text-white">Specialized initiative focused on the development of
+                        young athletes. These initiatives play a vital role in fostering a continuous learning culture,
+                        empowering individuals to adapt to evolving challenges and excel in their respective fields.</p>
+                    <button class="btn bg-[#FF4240] text-white w-44">Register Now!</button>
                 </div>
-                <div>
-                    <h3 class="text-2xl font-extrabold text-white">Teenager Program</h3>
-                    <p class="text-base font-medium text-white">Specialized set of activities designed to cater to the
-                        interests of teenagers.</p>
-                    <button class="btn bg-[#FF4240] text-white">Register Now!</button>
+                <div
+                    class="bg-[linear-gradient(to_right_bottom,rgba(9,7,12,0.45),rgba(7,4,10,0.5)),url('../images/3.png')] bg-no-repeat bg-cover object-cover rounded-2xl p-10 flex flex-col gap-5">
+                    <h3 class="text-3xl font-extrabold text-white">Teenager Program</h3>
+                    <p class="text-sm font-medium text-white">Specialized set of activities designed to cater to the
+                        interests of teenagers. These initiatives play a vital role in fostering a continuous learning
+                        culture, empowering individuals to adapt to evolving challenges and excel in their respective
+                        fields.</p>
+                    <button class="btn bg-[#FF4240] text-white w-44">Register Now!</button>
                 </div>
-                <div>
-                    <h3 class="text-2xl font-extrabold text-white">Professional Program</h3>
-                    <p class="text-base font-medium text-white">Initiatives designed to enhance the skills, knowledge,
-                        and proficiency of individuals.</p>
-                    <button class="btn bg-[#FF4240] text-white">Register Now!</button>
+                <div
+                    class="bg-[linear-gradient(to_right_bottom,rgba(9,7,12,0.45),rgba(7,4,10,0.5)),url('../images/4.png')] bg-no-repeat bg-cover object-cover rounded-2xl flex flex-col gap-5 lg:col-span-2">
+                    <div class="p-10 lg:py-10 flex flex-col gap-5 lg:mt-40">
+                        <h3 class="text-3xl font-extrabold text-white">Professional Program</h3>
+                        <p class="text-sm font-medium text-white w-2/5">Initiatives designed to enhance the skills,
+                            knowledge,
+                            and proficiency of individuals. These initiatives play a vital role in fostering a
+                            continuous
+                            learning culture to adapt evolving challenges in their respective fields.</p>
+                        <button class="btn bg-[#FF4240] text-white w-44">Register Now!</button>
+                    </div>
                 </div>
             </div>
         </section>
